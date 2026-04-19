@@ -237,7 +237,7 @@ export default function HomePage() {
             <div className="flex flex-col md:flex-row items-center justify-center gap-12">
               <div className="flex-shrink-0">
                 <img
-                  src="https://res-console.cloudinary.com/dgdjv1zas/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/bG9nb19wbW5sYW8=/template_primary"
+                  src="https://res.cloudinary.com/dgdjv1zas/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/bG9nb19wbW5sYW8=/template_primary"
                   alt="SGIS Logo"
                   className="w-64 h-64 object-contain"
                 />
