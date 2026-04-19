@@ -83,7 +83,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
           <Link to="/" className="flex-shrink-0">
             <img
               // src="https://public.readdy.ai/ai/img_res/1c61b234-48f8-4b5d-b3cf-a0f16a0e7d0c.png"
-              src="https://res-console.cloudinary.com/dgdjv1zas/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/bG9nb19wbW5sYW8=/template_primary"
+              src="https://res.cloudinary.com/dgdjv1zas/image/upload/v1776579123/logo_pmnlao.png"
               alt="SGIS Logo"
               className="h-14 w-14 object-contain"
             />

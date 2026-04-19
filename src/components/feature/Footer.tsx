@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img
-                src="https://res-console.cloudinary.com/dgdjv1zas/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/bG9nb19wbW5sYW8=/template_primary"
+                src="https://res.cloudinary.com/dgdjv1zas/image/upload/v1776579123/logo_pmnlao.png"
                 alt="SGIS Logo"
                 className="h-12 w-12 object-contain"
               />
