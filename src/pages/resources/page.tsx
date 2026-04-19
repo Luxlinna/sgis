@@ -41,11 +41,19 @@ const resources: ResourceDoc[] = [
     color: 'text-teal-700',
     iconBg: 'bg-teal-100',
     previewContent: [
-      { heading: 'School Hours & Attendance', items: ['School gates open at 7:30 AM', 'Classes begin at 8:00 AM', 'School ends at 3:30 PM (Primary), 4:00 PM (Secondary)', 'Attendance is compulsory for all enrolled students', 'Parents must notify school before 8:00 AM for absences'] },
-      { heading: 'Behaviour & Discipline Policy', items: ['SGIS follows a Restorative Practice approach', 'Three-step behaviour system: Warning → Reflection → Parent Contact', 'Zero tolerance for bullying, discrimination, or harassment', 'Mobile phones are not permitted during class hours'] },
-      { heading: 'Assessment & Reporting', items: ['Two formal reports per year (December & June)', 'Parent-Teacher Meetings held twice per academic year', 'Continuous assessment through classwork, projects, and tests', 'Cambridge benchmark assessments for Years 6, 9, and 12'] },
-    ],
+      {
+        heading: 'School Hours & Attendance',
+        items: [
+          'School gates open at 7:30 AM',
+          'Classes begin at 8:00 AM',
+          'School ends at 3:30 PM (Primary), 4:00 PM (Secondary)',
+          'Attendance is compulsory for all enrolled students',
+          'Parents must notify school before 8:00 AM for absences'
+        ]
+      }
+    ]
   },
+
   {
     id: 'supply-list',
     icon: 'ri-list-check-2',
@@ -60,18 +68,26 @@ const resources: ResourceDoc[] = [
     color: 'text-amber-700',
     iconBg: 'bg-amber-100',
     previewContent: [
-      { heading: 'Early Years (Nursery – Reception)', items: ['Backpack (medium size, labelled)', 'Water bottle with name', 'Change of clothing in named bag', 'Sunhat for outdoor play', 'Art smock / old T-shirt for creative sessions'] },
-      { heading: 'Primary (Years 1–6)', items: ['Pencil case with pencils, ruler, eraser, sharpener', 'Set of coloured pencils (12 colours)', 'A4 notebook x4 (labelled per subject)', 'Glue stick and scissors', 'Calculator (scientific, from Year 5)'] },
-      { heading: 'Secondary (Years 7–12)', items: ['Scientific calculator (Casio fx-991)', 'Ring binders x5 (one per subject)', 'USB flash drive (8GB minimum)', 'Highlighters and sticky notes', 'English dictionary (Oxford or Collins)'] },
-    ],
+      {
+        heading: 'Early Years (Nursery – Reception)',
+        items: [
+          'Backpack (medium size, labelled)',
+          'Water bottle with name',
+          'Change of clothing in named bag',
+          'Sunhat for outdoor play',
+          'Art smock / old T-shirt'
+        ]
+      }
+    ]
   },
+
   {
     id: 'uniform',
     icon: 'ri-t-shirt-line',
     titleEn: 'Uniform Guide & Dress Code',
     titleKm: 'មគ្គុទ្ទេសក៍ព្រំបិទ និងការស្លៀកពាក់',
-    descEn: 'Full uniform requirements with descriptions, images, and information on where to purchase.',
-    descKm: 'តម្រូវការព្រំបិទពេញលេញ រួមទាំងការពិពណ៌នា និងកន្លែងទិញ។',
+    descEn: 'Full uniform requirements with descriptions and purchase information.',
+    descKm: 'តម្រូវការព្រំបិទពេញលេញ និងកន្លែងទិញ។',
     category: 'General',
     categoryKm: 'ទូទៅ',
     pages: 6,
@@ -79,18 +95,26 @@ const resources: ResourceDoc[] = [
     color: 'text-rose-700',
     iconBg: 'bg-rose-100',
     previewContent: [
-      { heading: 'Daily Uniform (All Students)', items: ['White SGIS polo shirt with embroidered logo', 'Navy blue trousers or skirt (below the knee)', 'White or navy socks (no bright colours)', 'Black leather school shoes (closed toe)', 'SGIS school bag (branded or plain navy/black)'] },
-      { heading: 'PE & Sports Uniform', items: ['SGIS sports T-shirt (colour depends on house)', 'Navy blue sports shorts or tracksuit bottoms', 'White sports socks', 'Training shoes (any colour, must be clean)'] },
-      { heading: 'Where to Purchase', items: ['SGIS School Shop — open Mon–Fri 7:30–9:00 AM and 2:30–4:30 PM', 'Orders can also be placed by emailing admin@sgis-siemreap.edu.kh', 'Logo embroidery available for plain shirts purchased elsewhere', 'Second-hand uniform exchange board available at reception'] },
-    ],
+      {
+        heading: 'Daily Uniform',
+        items: [
+          'White SGIS polo shirt with logo',
+          'Navy trousers or skirt',
+          'Black school shoes',
+          'White or navy socks',
+          'SGIS school bag'
+        ]
+      }
+    ]
   },
+
   {
     id: 'calendar-pdf',
     icon: 'ri-calendar-2-line',
     titleEn: 'Academic Calendar 2025–2026 (PDF)',
     titleKm: 'ប្រតិទិនសិក្សា ២០២៥–២០២៦ (PDF)',
-    descEn: 'Printable academic calendar with all key dates, holidays, school events, and exam periods.',
-    descKm: 'ប្រតិទិនសិក្សាសម្រាប់បោះពុម្ព ដែលមានកាលបរិច្ឆេទ វិស្សមកាល ព្រឹត្តិការណ៍ និងការប្រឡង។',
+    descEn: 'Printable academic calendar with holidays and key events.',
+    descKm: 'ប្រតិទិនសិក្សាសម្រាប់បោះពុម្ព ដែលមានថ្ងៃឈប់សម្រាក និងព្រឹត្តិការណ៍សំខាន់ៗ។',
     category: 'Calendar',
     categoryKm: 'ប្រតិទិន',
     pages: 2,
@@ -98,21 +122,24 @@ const resources: ResourceDoc[] = [
     color: 'text-teal-700',
     iconBg: 'bg-teal-100',
     previewContent: [
-      { heading: 'Term Dates', items: ['Term 1: August 11 – December 19, 2025', 'Term 2: January 5 – March 28, 2026', 'Term 3: April 20 – June 26, 2026'] },
-      { heading: 'Key Holidays', items: ['Mid-Term Break: October 20–24, 2025', 'Christmas Break: December 20, 2025 – January 4, 2026', 'Khmer New Year: April 13–17, 2026', 'Summer Holiday: July 1 – August 9, 2026'] },
-      { heading: 'Important Events', items: ['Cultural Day: November 22, 2025', 'Sports Day: December 12, 2025', 'Parent-Teacher Meeting: November 22, 2025', 'Graduation Ceremony: June 25, 2026'] },
-    ],
+      {
+        heading: 'Term Dates',
+        items: [
+          'Term 1: Aug – Dec 2025',
+          'Term 2: Jan – Mar 2026',
+          'Term 3: Apr – Jun 2026'
+        ]
+      }
+    ]
   },
+
   {
     id: 'fee-schedule',
     icon: 'ri-money-dollar-circle-line',
     titleEn: 'Fee Schedule & Payment Policy',
-    titleKm: 'ពន្ធ​​ ​ ​​​​​​​​ ​​​​ ​ ​ ​ ​ ​ ​​​​ ​ ​ ​ ​ ​ ​ ​ ​​ ​ ​ ​ ​​ ​ ​​​ ​ ​​​​​ ​ ​ ​ ​ ​ ​​ ​​​ ​ ​ ​ ​​ ​​​ ​ ​ ​ ​​​​​​​ ​ ​ ​ ​ ​ ​ ​ ​​ ​​​ ​ ​ ​ ​ ​​ ​ ​ ​ ​ ​ ​​ ​ ​ ​ ​​​ ​ ​ ​ ​​​​​​ ​ ​ ​ ​ ​ ​​ ​ ​ ​ ​​ ​ ​ ​ ​ ​ ​​​ ​ ​ ​ ​ ​ ​​ ​ ​​',
-    titleKm: 'ថ្លៃ​ ​ ​​​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​​ ​ ​ ​​​​​​ ​ ​​​​​ ​ ​ ​ ​ ​ ​​ ​ ​​ ​ ​ ​ ​ ​ ​​ ​ ​ ​ ​ ​ ​​ ​ ​ ​ ​​​​ ​ ​​​ ​​ ​​​​​ ​ ​ ​ ​ ​​ ​​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​​​​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​',
     titleKm: 'ថ្លៃសិក្សា & គោលការណ៍បង់ប្រាក់',
-    descEn: 'Complete breakdown of tuition fees, registration fees, and optional extras with payment schedule.',
-    descKm: 'ព័ត៌មានលម្អិតអំពីថ្លៃ ​ ​ ​​​​ ​ ​ ​ ​ ​ ​​ ​ ​ ​ ​ ​​​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​​ ​​ ​ ​ ​ ​',
-    descKm: 'ព័ត៌មានលម្អិតអំពីថ្លៃសិក្សា ថ្លៃចុះឈ្មោះ និងកាលវិភាគបង់ប្រាក់។',
+    descEn: 'Complete breakdown of tuition fees and payment schedules.',
+    descKm: 'ព័ត៌មានលម្អិតអំពីថ្លៃសិក្សា និងកាលវិភាគបង់ប្រាក់។',
     category: 'Finance',
     categoryKm: 'ហិរញ្ញវត្ថុ',
     pages: 3,
@@ -120,20 +147,24 @@ const resources: ResourceDoc[] = [
     color: 'text-green-700',
     iconBg: 'bg-green-100',
     previewContent: [
-      { heading: 'Annual Tuition Fees (USD)', items: ['Nursery & Pre-K (Age 2–4): $1,800/year', 'Reception & Year 1-2 (Age 5–7): $2,200/year', 'Years 3–6 (Age 8–11): $2,600/year', 'Years 7–9 (Age 12–14): $3,000/year', 'Years 10–12 (Age 15–18): $3,400/year'] },
-      { heading: 'Additional Fees', items: ['Registration/Enrollment Fee: $150 (one-time, non-refundable)', 'Activity & Materials Fee: $200/year', 'Optional School Lunch: $50/month', 'Optional After-School Care: $80/month'] },
-      { heading: 'Payment Schedule', items: ['Annual payment: 5% discount applied', 'Semester payment: Due August and January', 'Monthly payment: Available upon request', 'Payment methods: Cash, bank transfer, Wing, ABA'] },
-    ],
+      {
+        heading: 'Annual Tuition Fees',
+        items: [
+          'Nursery: $1,800',
+          'Primary: $2,200+',
+          'Secondary: $3,000+'
+        ]
+      }
+    ]
   },
+
   {
     id: 'parent-code',
     icon: 'ri-shield-check-line',
     titleEn: 'Parent Code of Conduct',
     titleKm: 'ក្រមប្រតិបត្តិមាតាបិតា',
-    descEn: 'Guidelines for parents and guardians on supporting your child\'s learning and engaging with the school community positively.',
-    descKm: 'ការណែនាំ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​',
-    descKm: 'ការណែនាំសម្រាប់មាតាបិតា ​ ​ ​​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​',
-    descKm: 'ការណែនាំសម្រាប់មាតាបិតា ក្នុងការគាំទ្រការសិក្សា និងចូលរួមក្នុងសហគមន៍សាលា។',
+    descEn: 'Guidelines for parents on supporting learning and school engagement.',
+    descKm: 'ការណែនាំសម្រាប់មាតាបិតាក្នុងការគាំទ្រការសិក្សា។',
     category: 'Policy',
     categoryKm: 'គោលការណ៍',
     pages: 5,
@@ -141,17 +172,26 @@ const resources: ResourceDoc[] = [
     color: 'text-indigo-700',
     iconBg: 'bg-indigo-100',
     previewContent: [
-      { heading: 'Supporting Your Child at Home', items: ['Ensure your child arrives on time and prepared', 'Encourage daily reading for at least 20 minutes', 'Check the school communication app or newsletter weekly', 'Provide a quiet, dedicated space for homework', 'Praise effort and progress, not just results'] },
-      { heading: 'Communication with the School', items: ['Use the school communication app (ClassDojo) for messages', 'Request teacher meetings through the school office', 'Raise concerns promptly and respectfully', 'Volunteer at school events when possible', 'Attend Parent-Teacher Meetings and school events'] },
-    ],
+      {
+        heading: 'Home Support',
+        items: [
+          'Ensure punctual arrival',
+          'Encourage reading',
+          'Check updates regularly',
+          'Provide study space',
+          'Support learning effort'
+        ]
+      }
+    ]
   },
+
   {
     id: 'esl-handbook',
     icon: 'ri-translate-2',
     titleEn: 'ESL Support Programme Guide',
     titleKm: 'មគ្គុទ្ទេសក៍កម្មវិធីជំនួយ ESL',
-    descEn: 'Information on our English as a Second Language support programme for non-native English speaking students.',
-    descKm: 'ព័ت៌មានអំពីកម្មវិធីជំនួយភាសាអង់គ្លេសសម្រាប់សិស្សដែលភាសាអង់គ្លេសមិនមែនជាភាសាដើម។',
+    descEn: 'English support programme for non-native speakers.',
+    descKm: 'កម្មវិធីជំនួយភាសាអង់គ្លេសសម្រាប់សិស្សដែលមិនមែនជាភាសាដើម។',
     category: 'Academic',
     categoryKm: 'ការសិក្សា',
     pages: 8,
@@ -159,18 +199,25 @@ const resources: ResourceDoc[] = [
     color: 'text-orange-700',
     iconBg: 'bg-orange-100',
     previewContent: [
-      { heading: 'Who Qualifies for ESL Support?', items: ['All new students undergo a language assessment', 'ESL support provided for students at Beginner, Elementary, and Intermediate levels', 'Support continues until student reaches proficiency', 'No extra fee for ESL sessions (included in tuition)'] },
-      { heading: 'Types of ESL Support', items: ['Daily small-group ESL pullout sessions (30–45 minutes)', 'In-class language support in mainstream lessons', 'Home reading programme with graded books', 'Parent workshops on supporting English at home'] },
-    ],
+      {
+        heading: 'ESL Support',
+        items: [
+          'Language assessment required',
+          'Small group sessions',
+          'Reading support',
+          'No extra fee'
+        ]
+      }
+    ]
   },
+
   {
     id: 'anti-bullying',
     icon: 'ri-heart-2-line',
     titleEn: 'Anti-Bullying & Safeguarding Policy',
-    titleKm: 'គោលការណ៍ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​',
-    titleKm: 'គោលការណ៍ប្រឆាំងការខ្ទប់ & ការការពារ',
-    descEn: 'Our commitment to creating a safe, respectful, and inclusive environment for every child at SGIS.',
-    descKm: 'ការប្តេជ្ញាចិត្តរបស់យើងក្នុងការបង្កើតបរិយាកាសដែលមានសុវត្ថិភាព គោរព និងរួមបញ្ចូលសម្រាប់គ្រប់កុមារ។',
+    titleKm: 'គោលការណ៍ការពារ និងប្រឆាំងការខ្ទប់',
+    descEn: 'Safe and inclusive environment for all students.',
+    descKm: 'បរិយាកាសសុវត្ថិភាព និងរួមបញ្ចូលសម្រាប់សិស្សទាំងអស់។',
     category: 'Policy',
     categoryKm: 'គោលការណ៍',
     pages: 10,
@@ -178,11 +225,172 @@ const resources: ResourceDoc[] = [
     color: 'text-rose-700',
     iconBg: 'bg-rose-100',
     previewContent: [
-      { heading: 'SGIS Definition of Bullying', items: ['Physical: hitting, pushing, or damaging belongings', 'Verbal: name-calling, teasing, threats, or hurtful comments', 'Social: excluding, spreading rumours, or manipulating relationships', 'Cyberbullying: harmful messages or images via digital means'] },
-      { heading: 'Reporting & Response', items: ['Any student, parent, or staff member may report a concern', 'All reports are treated confidentially and taken seriously', 'Investigations are completed within 5 school days', 'Parents of all involved parties are notified', 'Serious incidents are referred to safeguarding officer'] },
-    ],
-  },
+      {
+        heading: 'Bullying Types',
+        items: [
+          'Physical',
+          'Verbal',
+          'Social',
+          'Cyber'
+        ]
+      }
+    ]
+  }
 ];
+// const resources: ResourceDoc[] = [
+//   {
+//     id: 'handbook',
+//     icon: 'ri-book-2-line',
+//     titleEn: 'SGIS School Handbook 2025–2026',
+//     titleKm: 'សៀវភៅណែនាំសាលា SGIS ២០២៥–២០២៦',
+//     descEn: 'The complete guide to school policies, rules, expectations, and daily procedures for students and families.',
+//     descKm: 'មគ្គុទ្ទេសក៍ពេញលេញអំពីគោលការណ៍ ច្បាប់ និងនីតិវិធីប្រចាំថ្ងៃសម្រាប់សិស្ស និងគ្រួសារ។',
+//     category: 'General',
+//     categoryKm: 'ទូទៅ',
+//     pages: 28,
+//     updated: 'August 2025',
+//     color: 'text-teal-700',
+//     iconBg: 'bg-teal-100',
+//     previewContent: [
+//       { heading: 'School Hours & Attendance', items: ['School gates open at 7:30 AM', 'Classes begin at 8:00 AM', 'School ends at 3:30 PM (Primary), 4:00 PM (Secondary)', 'Attendance is compulsory for all enrolled students', 'Parents must notify school before 8:00 AM for absences'] },
+//       { heading: 'Behaviour & Discipline Policy', items: ['SGIS follows a Restorative Practice approach', 'Three-step behaviour system: Warning → Reflection → Parent Contact', 'Zero tolerance for bullying, discrimination, or harassment', 'Mobile phones are not permitted during class hours'] },
+//       { heading: 'Assessment & Reporting', items: ['Two formal reports per year (December & June)', 'Parent-Teacher Meetings held twice per academic year', 'Continuous assessment through classwork, projects, and tests', 'Cambridge benchmark assessments for Years 6, 9, and 12'] },
+//     ],
+//   },
+//   {
+//     id: 'supply-list',
+//     icon: 'ri-list-check-2',
+//     titleEn: 'Student Supply List 2025–2026',
+//     titleKm: 'បញ្ជីសម្ភារៈសិស្ស ២០២៥–២០២៦',
+//     descEn: 'Required stationery and school supplies for each year group from Nursery through Year 12.',
+//     descKm: 'ឧបករណ៍សិក្សា និងសម្ភារៈចាំបាច់សម្រាប់គ្រប់ថ្នាក់ ពី Nursery រហូតដល់ Year 12។',
+//     category: 'Academic',
+//     categoryKm: 'ការសិក្សា',
+//     pages: 4,
+//     updated: 'August 2025',
+//     color: 'text-amber-700',
+//     iconBg: 'bg-amber-100',
+//     previewContent: [
+//       { heading: 'Early Years (Nursery – Reception)', items: ['Backpack (medium size, labelled)', 'Water bottle with name', 'Change of clothing in named bag', 'Sunhat for outdoor play', 'Art smock / old T-shirt for creative sessions'] },
+//       { heading: 'Primary (Years 1–6)', items: ['Pencil case with pencils, ruler, eraser, sharpener', 'Set of coloured pencils (12 colours)', 'A4 notebook x4 (labelled per subject)', 'Glue stick and scissors', 'Calculator (scientific, from Year 5)'] },
+//       { heading: 'Secondary (Years 7–12)', items: ['Scientific calculator (Casio fx-991)', 'Ring binders x5 (one per subject)', 'USB flash drive (8GB minimum)', 'Highlighters and sticky notes', 'English dictionary (Oxford or Collins)'] },
+//     ],
+//   },
+//   {
+//     id: 'uniform',
+//     icon: 'ri-t-shirt-line',
+//     titleEn: 'Uniform Guide & Dress Code',
+//     titleKm: 'មគ្គុទ្ទេសក៍ព្រំបិទ និងការស្លៀកពាក់',
+//     descEn: 'Full uniform requirements with descriptions, images, and information on where to purchase.',
+//     descKm: 'តម្រូវការព្រំបិទពេញលេញ រួមទាំងការពិពណ៌នា និងកន្លែងទិញ។',
+//     category: 'General',
+//     categoryKm: 'ទូទៅ',
+//     pages: 6,
+//     updated: 'August 2025',
+//     color: 'text-rose-700',
+//     iconBg: 'bg-rose-100',
+//     previewContent: [
+//       { heading: 'Daily Uniform (All Students)', items: ['White SGIS polo shirt with embroidered logo', 'Navy blue trousers or skirt (below the knee)', 'White or navy socks (no bright colours)', 'Black leather school shoes (closed toe)', 'SGIS school bag (branded or plain navy/black)'] },
+//       { heading: 'PE & Sports Uniform', items: ['SGIS sports T-shirt (colour depends on house)', 'Navy blue sports shorts or tracksuit bottoms', 'White sports socks', 'Training shoes (any colour, must be clean)'] },
+//       { heading: 'Where to Purchase', items: ['SGIS School Shop — open Mon–Fri 7:30–9:00 AM and 2:30–4:30 PM', 'Orders can also be placed by emailing admin@sgis-siemreap.edu.kh', 'Logo embroidery available for plain shirts purchased elsewhere', 'Second-hand uniform exchange board available at reception'] },
+//     ],
+//   },
+//   {
+//     id: 'calendar-pdf',
+//     icon: 'ri-calendar-2-line',
+//     titleEn: 'Academic Calendar 2025–2026 (PDF)',
+//     titleKm: 'ប្រតិទិនសិក្សា ២០២៥–២០២៦ (PDF)',
+//     descEn: 'Printable academic calendar with all key dates, holidays, school events, and exam periods.',
+//     descKm: 'ប្រតិទិនសិក្សាសម្រាប់បោះពុម្ព ដែលមានកាលបរិច្ឆេទ វិស្សមកាល ព្រឹត្តិការណ៍ និងការប្រឡង។',
+//     category: 'Calendar',
+//     categoryKm: 'ប្រតិទិន',
+//     pages: 2,
+//     updated: 'August 2025',
+//     color: 'text-teal-700',
+//     iconBg: 'bg-teal-100',
+//     previewContent: [
+//       { heading: 'Term Dates', items: ['Term 1: August 11 – December 19, 2025', 'Term 2: January 5 – March 28, 2026', 'Term 3: April 20 – June 26, 2026'] },
+//       { heading: 'Key Holidays', items: ['Mid-Term Break: October 20–24, 2025', 'Christmas Break: December 20, 2025 – January 4, 2026', 'Khmer New Year: April 13–17, 2026', 'Summer Holiday: July 1 – August 9, 2026'] },
+//       { heading: 'Important Events', items: ['Cultural Day: November 22, 2025', 'Sports Day: December 12, 2025', 'Parent-Teacher Meeting: November 22, 2025', 'Graduation Ceremony: June 25, 2026'] },
+//     ],
+//   },
+//   {
+//     id: 'fee-schedule',
+//     icon: 'ri-money-dollar-circle-line',
+//     titleEn: 'Fee Schedule & Payment Policy',
+//     titleKm: 'ថ្លៃសិក្សា & គោលការណ៍បង់ប្រាក់',
+//     descEn: 'Complete breakdown of tuition fees, registration fees, and optional extras with payment schedule.',
+//     descKm: 'ព័ត៌មានលម្អិតអំពីថ្លៃសិក្សា ថ្លៃចុះឈ្មោះ និងកាលវិភាគបង់ប្រាក់។',
+//     category: 'Finance',
+//     categoryKm: 'ហិរញ្ញវត្ថុ',
+//     pages: 3,
+//     updated: 'August 2025',
+//     color: 'text-green-700',
+//     iconBg: 'bg-green-100',
+//     previewContent: [
+//       { heading: 'Annual Tuition Fees (USD)', items: ['Nursery & Pre-K (Age 2–4): $1,800/year', 'Reception & Year 1-2 (Age 5–7): $2,200/year', 'Years 3–6 (Age 8–11): $2,600/year', 'Years 7–9 (Age 12–14): $3,000/year', 'Years 10–12 (Age 15–18): $3,400/year'] },
+//       { heading: 'Additional Fees', items: ['Registration/Enrollment Fee: $150 (one-time, non-refundable)', 'Activity & Materials Fee: $200/year', 'Optional School Lunch: $50/month', 'Optional After-School Care: $80/month'] },
+//       { heading: 'Payment Schedule', items: ['Annual payment: 5% discount applied', 'Semester payment: Due August and January', 'Monthly payment: Available upon request', 'Payment methods: Cash, bank transfer, Wing, ABA'] },
+//     ],
+//   },
+//   {
+//     id: 'parent-code',
+//     icon: 'ri-shield-check-line',
+//     titleEn: 'Parent Code of Conduct',
+//     titleKm: 'ក្រមប្រតិបត្តិមាតាបិតា',
+//     descEn: 'Guidelines for parents and guardians on supporting your child\'s learning and engaging with the school community positively.',
+//     descKm: 'ការណែនាំ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​',
+//     descKm1: 'ការណែនាំសម្រាប់មាតាបិតា ​ ​ ​​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​',
+//     descKm2: 'ការណែនាំសម្រាប់មាតាបិតា ក្នុងការគាំទ្រការសិក្សា និងចូលរួមក្នុងសហគមន៍សាលា។',
+//     category: 'Policy',
+//     categoryKm: 'គោលការណ៍',
+//     pages: 5,
+//     updated: 'August 2025',
+//     color: 'text-indigo-700',
+//     iconBg: 'bg-indigo-100',
+//     previewContent: [
+//       { heading: 'Supporting Your Child at Home', items: ['Ensure your child arrives on time and prepared', 'Encourage daily reading for at least 20 minutes', 'Check the school communication app or newsletter weekly', 'Provide a quiet, dedicated space for homework', 'Praise effort and progress, not just results'] },
+//       { heading: 'Communication with the School', items: ['Use the school communication app (ClassDojo) for messages', 'Request teacher meetings through the school office', 'Raise concerns promptly and respectfully', 'Volunteer at school events when possible', 'Attend Parent-Teacher Meetings and school events'] },
+//     ],
+//   },
+//   {
+//     id: 'esl-handbook',
+//     icon: 'ri-translate-2',
+//     titleEn: 'ESL Support Programme Guide',
+//     titleKm: 'មគ្គុទ្ទេសក៍កម្មវិធីជំនួយ ESL',
+//     descEn: 'Information on our English as a Second Language support programme for non-native English speaking students.',
+//     descKm: 'ព័ت៌មានអំពីកម្មវិធីជំនួយភាសាអង់គ្លេសសម្រាប់សិស្សដែលភាសាអង់គ្លេសមិនមែនជាភាសាដើម។',
+//     category: 'Academic',
+//     categoryKm: 'ការសិក្សា',
+//     pages: 8,
+//     updated: 'August 2025',
+//     color: 'text-orange-700',
+//     iconBg: 'bg-orange-100',
+//     previewContent: [
+//       { heading: 'Who Qualifies for ESL Support?', items: ['All new students undergo a language assessment', 'ESL support provided for students at Beginner, Elementary, and Intermediate levels', 'Support continues until student reaches proficiency', 'No extra fee for ESL sessions (included in tuition)'] },
+//       { heading: 'Types of ESL Support', items: ['Daily small-group ESL pullout sessions (30–45 minutes)', 'In-class language support in mainstream lessons', 'Home reading programme with graded books', 'Parent workshops on supporting English at home'] },
+//     ],
+//   },
+//   {
+//     id: 'anti-bullying',
+//     icon: 'ri-heart-2-line',
+//     titleEn: 'Anti-Bullying & Safeguarding Policy',
+//     titleKm: 'គោលការណ៍ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​',
+//     titleKm1: 'គោលការណ៍ប្រឆាំងការខ្ទប់ & ការការពារ',
+//     descEn: 'Our commitment to creating a safe, respectful, and inclusive environment for every child at SGIS.',
+//     descKm: 'ការប្តេជ្ញាចិត្តរបស់យើងក្នុងការបង្កើតបរិយាកាសដែលមានសុវត្ថិភាព គោរព និងរួមបញ្ចូលសម្រាប់គ្រប់កុមារ។',
+//     category: 'Policy',
+//     categoryKm: 'គោលការណ៍',
+//     pages: 10,
+//     updated: 'August 2025',
+//     color: 'text-rose-700',
+//     iconBg: 'bg-rose-100',
+//     previewContent: [
+//       { heading: 'SGIS Definition of Bullying', items: ['Physical: hitting, pushing, or damaging belongings', 'Verbal: name-calling, teasing, threats, or hurtful comments', 'Social: excluding, spreading rumours, or manipulating relationships', 'Cyberbullying: harmful messages or images via digital means'] },
+//       { heading: 'Reporting & Response', items: ['Any student, parent, or staff member may report a concern', 'All reports are treated confidentially and taken seriously', 'Investigations are completed within 5 school days', 'Parents of all involved parties are notified', 'Serious incidents are referred to safeguarding officer'] },
+//     ],
+//   },
+// ];
 
 export default function ResourcesPage() {
   const { t, i18n } = useTranslation();
